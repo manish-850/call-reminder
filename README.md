@@ -71,7 +71,6 @@ Call-Reminder-App/
 - ✅ Edit & delete reminders.  
 - ✅ Add due dates & notifications.  
 - ✅ Mobile-first design with responsive layout.  
-- ✅ Sync data with a backend (Firebase/Express).  
 
 ---
 
