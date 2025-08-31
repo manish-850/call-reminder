@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Reminder App</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5064/5064279.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="form">
+        <form autocomplete="off" action="">
+            <h3>New Call</h3>
+            <label for="">Image URL</label><br>
+            <input id="url" required class="txt-bar" type="text"
+                placeholder="https://www.example.com/photo.jpg"><br><br>
+            <label for="">Full Name</label><br>
+            <input id="uname" required class="txt-bar" type="text" placeholder="Enter full name"><br><br>
+            <label for="">Home Town</label><br>
+            <input id="home" required class="txt-bar" type="text" placeholder="Enter home town"><br><br>
+            <label for="">Purpose</label><br>
+            <input id="Purpose" required class="txt-bar" type="text" placeholder="e.g : Quick appointment note">
+            <h4 style="font-weight: 400; margin-bottom: 5px;">Category</h4>
+            <div class="radio-container">
+                <div style="background-color: #fcc674;" class="radio-con">
+                    <input style="cursor: pointer; accent-color: #fcc674" required type="radio" name="ctg"
+                        value="Emergency" id="Emergency">
+                    <label style="color: #000;" for="Emergency">Emergency</label>
+                </div>
+                <div style="background-color: #FFE100;" class="radio-con">
+                    <input style="cursor: pointer; accent-color: #FFE100;" required type="radio" name="ctg"
+                        value="Important" id="Important">
+                    <label style="color: #000;" for="Important">Important</label>
+                </div>
+                <div style="background-color: #5EABD6;" class="radio-con">
+                    <input style="cursor: pointer; accent-color: #5EABD6;" required type="radio" name="ctg"
+                        value="Urgent" id="Urgent">
+                    <label style="color: #000;" for="Urgent">Urgent</label>
+                </div>
+                <div style="background-color: #ce68f7;" class="radio-con">
+                    <input style="cursor: pointer; accent-color: #ce68f7;" required type="radio" name="ctg"
+                        value="No-rush" id="No-Rush">
+                    <label style="color: #000;" for="No-Rush">No Rush</label>
+                </div>
+            </div>
+            <button id="create" style="margin: 10px 0; background-color: #000;" type="submit">Create Reminder</button>
+            <br>
+            <button id="close" style="background-color: #DC3C22;" type="button">Close</button>
+        </form>
+    </div>
+    <div id="main">
+        <div id="buttons">
+            <i class="ri-add-line"></i>
+            <i class="ri-arrow-up-line"></i>
+            <i class="ri-arrow-down-line"></i>
+        </div>
+        <div id="cards">
+        </div>
+        <div id="colors">
+            <div style="background-color: #fcc674;" class="color"></div>
+            <div style="background-color: #FFE100;" class="color"></div>
+            <div style="background-color: #5EABD6;" class="color"></div>
+            <div style="background-color: #ce68f7;" class="color"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
