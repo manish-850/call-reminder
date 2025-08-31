@@ -48,7 +48,8 @@ Call-Reminder-App/
 │── script.js
 │── README.md
 │── assets/
-    └── screenshot.png
+    └── card.jpg
+    └── form.jpg
 ```
 
 ---
