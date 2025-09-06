@@ -86,23 +86,3 @@ Contributions are welcome! Feel free to fork this repo and submit a pull request
 This project is licensed under the **MIT License**.  
 
 ---
-
-### 🔹 Project Description (for GitHub repo)  
-> A simple and interactive **Call Reminder App** built with HTML, CSS, and JavaScript. Users can create call reminders with details like name, hometown, purpose, and category. All reminders are stored in **LocalStorage** for persistence.  
-
----
-
-### 🔹 GitHub Topics / Tags  
-```
-javascript
-html
-css
-vanilla-js
-web-app
-localstorage
-call-reminder
-reminder-app
-todo-app
-productivity
-frontend-project
-```
