@@ -58,7 +58,7 @@ Call-Reminder-App/
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/Call-Reminder-App.git
+   git clone https://github.com/manish-850/Call-Reminder-App.git
    ```
 2. Open `index.html` in your browser.  
 3. Click ➕ to add a new reminder.  
