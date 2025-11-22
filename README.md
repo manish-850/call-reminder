@@ -1,88 +1,67 @@
-# 📞 Call Reminder App
+# Call Reminder Web App
 
-A simple and interactive **Call Reminder App** built with **HTML, CSS, and JavaScript**.  
-This app allows you to create and manage call reminders with details like **name, hometown, purpose, and category**, and stores them locally using **LocalStorage**.  
+A simple and clean call reminder application built using HTML, CSS, and
+JavaScript.
 
----
+## Overview
 
-## 🚀 Features
+This project allows users to create call reminders with details such
+as: - Image URL\
+- Full Name\
+- Home Town\
+- Purpose\
+- Category (Emergency, Important, Urgent, No Rush)
 
-- ➕ **Add new call reminders** with an image, name, hometown, and purpose.  
-- 🎨 **Category-based reminders**:  
-  - 🟠 Emergency  
-  - 🟡 Important  
-  - 🔵 Urgent  
-  - 🟣 No Rush  
-- 📂 **Persistent storage** using **LocalStorage** (data remains after page refresh).  
-- 📑 **Stacked card view** with smooth UI.  
-- ⬆️⬇️ **Reorder reminders** (move up/down).  
-- 📱 Responsive UI (cards and form are styled for a clean look).  
+Each reminder is added as a card with color-coded categories for easier
+filtering and organization.
 
----
+## Features
 
-## 🖼️ Preview  
+-   Create and store call reminders dynamically\
+-   Category-based color coding\
+-   One‑click sorting buttons (ascending / descending)\
+-   Add new reminder popup form\
+-   Minimal and clean UI with smooth user interactions\
+-   Filter reminders by category\
+-   Close / remove filter option
 
-Here’s how the app looks 👇  
+## Tech Stack
 
-![App Screenshot](assets/card.png)
-![App Screenshot](assets/form.png)
+-   HTML5\
+-   CSS3\
+-   JavaScript\
+-   Remix Icons CDN
 
----
+## Project Structure
 
-## 🛠️ Tech Stack  
+    /
+    |-- index.html
+    |-- style.css
+    |-- script.js
 
-- **HTML5** – structure  
-- **CSS3** – styling  
-- **JavaScript (Vanilla JS)** – functionality & local storage  
-- **Remix Icons** – icons  
-- **Google Fonts (Poppins)** – typography  
+## How It Works
 
----
+1.  Click the **Add** button to open the reminder creation form.\
+2.  Fill in all required fields including category selection.\
+3.  Submit to create a new call card.\
+4.  Use arrow buttons to sort reminders.\
+5.  Click category colors to filter reminders.\
+6.  Remove filter using the close icon.
 
-## 📂 Project Structure  
+## How to Run
 
-```
-Call-Reminder-App/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
-│── assets/
-    └── card.jpg
-    └── form.jpg
-```
+1.  Download or clone the project files.\
+2.  Open **index.html** in your browser.\
+3.  Ensure `script.js` and `style.css` are in the same directory.\
+4.  Start using the call reminder app.
 
----
+## Notes
 
-## ⚙️ How to Use  
+-   This app works entirely on the client-side.\
+-   No backend or database integration is included.\
+-   You can extend it with localStorage or a backend later.
 
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/manish-850/Call-Reminder-App.git
-   ```
-2. Open `index.html` in your browser.  
-3. Click ➕ to add a new reminder.  
-4. Fill in the details and save.  
-5. Your reminder will be stored in **LocalStorage** and displayed as a card.  
+## Author
 
----
-
-## 📌 Future Improvements  
-
-- ✅ Edit & delete reminders.  
-- ✅ Add due dates & notifications.  
-- ✅ Mobile-first design with responsive layout.  
-
----
-
-## 🙌 Contributing  
-
-Contributions are welcome! Feel free to fork this repo and submit a pull request.  
-
----
-
-## 📜 License  
-
-This project is licensed under the **MIT License**.  
-
----
+**Manish**\
+Front-end Development Practice Project
